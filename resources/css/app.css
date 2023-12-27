@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-primary {
+    @apply bg-indigo-600 rounded-md hover:bg-indigo-800 hover:transition-all duration-300
+}
+.btn-danger {
+    @apply bg-red-500 text-white  rounded hover:bg-red-700 hover:transition duration-300
+}
+.btn-warning {
+    @apply bg-yellow-500 text-white  rounded hover:bg-yellow-700 hover:transition duration-300
+}
+.btn-outline-primary {
+    @apply ring ring-offset-1 rounded-md hover:bg-indigo-600 hover:transition duration-300
+}
